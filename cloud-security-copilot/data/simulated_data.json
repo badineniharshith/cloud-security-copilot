@@ -1,0 +1,1919 @@
+{
+  "resources": [
+    {
+      "id": "14719291-edc6-486a-8c2e-cb098451d49c",
+      "name": "GCP-Compute-4504",
+      "provider": "GCP",
+      "type": "GKE",
+      "region": "ap-southeast-1",
+      "created_at": "2025-05-31T20:25:50.825863",
+      "cost_per_hour": 0.64,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "fa1863af-2d1b-46ad-9a08-4045317c24a2",
+      "name": "Azure-VM-1310",
+      "provider": "Azure",
+      "type": "Functions",
+      "region": "us-west-2",
+      "created_at": "2025-10-12T20:25:50.825863",
+      "cost_per_hour": 2.87,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "26daa88c-2063-4ec6-8178-6ddd68e4db35",
+      "name": "Azure-Blob-5705",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "us-east-1",
+      "created_at": "2026-01-05T20:25:50.825863",
+      "cost_per_hour": 3.53,
+      "status": "active",
+      "tags": {
+        "environment": "dev"
+      }
+    },
+    {
+      "id": "b9e437c2-d509-40b8-b6c9-460b5b289529",
+      "name": "Azure-AKS-2800",
+      "provider": "Azure",
+      "type": "VM",
+      "region": "us-east-1",
+      "created_at": "2025-11-01T20:25:50.825863",
+      "cost_per_hour": 0.67,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "9f104306-474f-45ab-bf7d-f4ebd5005845",
+      "name": "AWS-Lambda-8722",
+      "provider": "AWS",
+      "type": "S3",
+      "region": "us-west-2",
+      "created_at": "2025-09-30T20:25:50.825863",
+      "cost_per_hour": 0.56,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "898be8c0-2f69-40b1-ba46-be01806fdaeb",
+      "name": "Azure-AKS-9347",
+      "provider": "Azure",
+      "type": "AKS",
+      "region": "us-east-1",
+      "created_at": "2025-12-05T20:25:50.825863",
+      "cost_per_hour": 4.45,
+      "status": "active",
+      "tags": {
+        "owner": "team-app"
+      }
+    },
+    {
+      "id": "6c984f70-590c-4a65-a4eb-99541477928c",
+      "name": "Azure-SQL-6426",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "us-east-1",
+      "created_at": "2026-01-22T20:25:50.825863",
+      "cost_per_hour": 2.26,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "503fff79-c5d2-45ea-99c6-70b76ddb9de3",
+      "name": "GCP-Functions-1188",
+      "provider": "GCP",
+      "type": "GKE",
+      "region": "eu-west-1",
+      "created_at": "2025-06-25T20:25:50.825863",
+      "cost_per_hour": 1.77,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "4fc83963-f729-48e5-8097-eddda50f5768",
+      "name": "AWS-EKS-8579",
+      "provider": "AWS",
+      "type": "EC2",
+      "region": "us-west-2",
+      "created_at": "2025-08-11T20:25:50.825863",
+      "cost_per_hour": 3.47,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "d22e333f-7ba8-4f4e-8405-fc46c853828c",
+      "name": "AWS-RDS-2388",
+      "provider": "AWS",
+      "type": "RDS",
+      "region": "us-east-1",
+      "created_at": "2025-03-31T20:25:50.825863",
+      "cost_per_hour": 1.87,
+      "status": "idle",
+      "tags": {
+        "owner": "team-app"
+      }
+    },
+    {
+      "id": "b90f1fdd-4f13-4929-924d-031aff7c23a2",
+      "name": "GCP-Compute-5084",
+      "provider": "GCP",
+      "type": "GKE",
+      "region": "us-west-2",
+      "created_at": "2025-06-28T20:25:50.825863",
+      "cost_per_hour": 3.75,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "b6c6a1e3-3362-454f-8ae8-41cd0febe011",
+      "name": "AWS-RDS-4945",
+      "provider": "AWS",
+      "type": "S3",
+      "region": "eu-west-1",
+      "created_at": "2025-12-13T20:25:50.825863",
+      "cost_per_hour": 3.73,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "381f4d1c-31f1-41ba-95c4-11588d73ce97",
+      "name": "AWS-S3-9399",
+      "provider": "AWS",
+      "type": "EKS",
+      "region": "us-east-1",
+      "created_at": "2025-10-18T20:25:50.825863",
+      "cost_per_hour": 3.82,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "3b994f9d-58b1-44cc-b790-95756ef1144e",
+      "name": "AWS-Lambda-7539",
+      "provider": "AWS",
+      "type": "S3",
+      "region": "us-east-1",
+      "created_at": "2025-06-13T20:25:50.825863",
+      "cost_per_hour": 3.2,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "54bff7d3-776c-4177-8836-6cf5eeaaa181",
+      "name": "GCP-Storage-9224",
+      "provider": "GCP",
+      "type": "SQL",
+      "region": "eu-west-1",
+      "created_at": "2026-01-22T20:25:50.825863",
+      "cost_per_hour": 4.07,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "52ce00ca-5891-4370-8e76-46dba3414cf5",
+      "name": "AWS-EKS-2556",
+      "provider": "AWS",
+      "type": "EC2",
+      "region": "us-west-2",
+      "created_at": "2025-12-04T20:25:50.825863",
+      "cost_per_hour": 4.96,
+      "status": "idle",
+      "tags": {
+        "environment": "staging",
+        "owner": "team-platform"
+      }
+    },
+    {
+      "id": "33b26d47-2b81-48d3-b84f-f9b86e034da4",
+      "name": "AWS-EC2-8163",
+      "provider": "AWS",
+      "type": "EKS",
+      "region": "ap-southeast-1",
+      "created_at": "2025-12-26T20:25:50.825863",
+      "cost_per_hour": 4.16,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "550b44d1-4d45-4ca8-9f9f-7405e1eb27fe",
+      "name": "Azure-AKS-3027",
+      "provider": "Azure",
+      "type": "VM",
+      "region": "ap-southeast-1",
+      "created_at": "2025-08-19T20:25:50.825863",
+      "cost_per_hour": 2.32,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "e4cd9205-1e51-4455-80e7-7a9f1d4d365a",
+      "name": "GCP-SQL-7163",
+      "provider": "GCP",
+      "type": "Storage",
+      "region": "ap-southeast-1",
+      "created_at": "2026-01-12T20:25:50.825863",
+      "cost_per_hour": 1.14,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "ef5544b6-cc88-493d-b6cc-1161e91a8037",
+      "name": "Azure-AKS-3677",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "us-east-1",
+      "created_at": "2025-12-01T20:25:50.825863",
+      "cost_per_hour": 4.76,
+      "status": "active",
+      "tags": {
+        "owner": "team-security"
+      }
+    },
+    {
+      "id": "278669ea-9d6e-4784-8692-5a386952b2e4",
+      "name": "GCP-Compute-9588",
+      "provider": "GCP",
+      "type": "SQL",
+      "region": "us-west-2",
+      "created_at": "2025-06-27T20:25:50.825863",
+      "cost_per_hour": 1.56,
+      "status": "idle",
+      "tags": {
+        "environment": "prod"
+      }
+    },
+    {
+      "id": "5605e717-0791-470b-9188-78b908b3ea7a",
+      "name": "GCP-Storage-5013",
+      "provider": "GCP",
+      "type": "Storage",
+      "region": "us-west-2",
+      "created_at": "2026-02-16T20:25:50.825863",
+      "cost_per_hour": 3.6,
+      "status": "idle",
+      "tags": {
+        "environment": "dev"
+      }
+    },
+    {
+      "id": "4ccbcc67-23c2-4814-9517-b9b1c2f2aaac",
+      "name": "Azure-Functions-8469",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "eu-west-1",
+      "created_at": "2025-08-12T20:25:50.825863",
+      "cost_per_hour": 0.01,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "9af7d34e-3f85-4c66-8501-ebf9897071f9",
+      "name": "GCP-Functions-2293",
+      "provider": "GCP",
+      "type": "Storage",
+      "region": "us-west-2",
+      "created_at": "2026-03-13T20:25:50.825863",
+      "cost_per_hour": 1.42,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "d8314252-9b36-4b5d-9563-944db5e8b297",
+      "name": "GCP-SQL-2855",
+      "provider": "GCP",
+      "type": "SQL",
+      "region": "eu-west-1",
+      "created_at": "2025-04-05T20:25:50.825863",
+      "cost_per_hour": 3.56,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "593c10d7-3bc1-4d36-af42-407b9c717732",
+      "name": "AWS-EC2-2869",
+      "provider": "AWS",
+      "type": "EC2",
+      "region": "us-east-1",
+      "created_at": "2025-08-19T20:25:50.825863",
+      "cost_per_hour": 2.78,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "e693dd61-fc29-430c-9240-71270b7b8868",
+      "name": "AWS-Lambda-4738",
+      "provider": "AWS",
+      "type": "S3",
+      "region": "eu-west-1",
+      "created_at": "2025-03-28T20:25:50.825863",
+      "cost_per_hour": 0.32,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "29466e69-ea2d-4497-ae47-98a0650dd584",
+      "name": "AWS-S3-2000",
+      "provider": "AWS",
+      "type": "EC2",
+      "region": "us-west-2",
+      "created_at": "2025-05-03T20:25:50.825863",
+      "cost_per_hour": 3.67,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "94980f26-f16b-49d0-b144-fe251463c8d4",
+      "name": "AWS-RDS-5564",
+      "provider": "AWS",
+      "type": "EKS",
+      "region": "us-west-2",
+      "created_at": "2026-01-12T20:25:50.825863",
+      "cost_per_hour": 2.3,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "c2b0978d-4a0a-49c7-9823-c26bb7b8fe6e",
+      "name": "AWS-EC2-8069",
+      "provider": "AWS",
+      "type": "EKS",
+      "region": "ap-southeast-1",
+      "created_at": "2025-08-02T20:25:50.825863",
+      "cost_per_hour": 3.67,
+      "status": "idle",
+      "tags": {
+        "environment": "prod"
+      }
+    },
+    {
+      "id": "0bbdc581-d8f3-4009-b425-24321511a3ad",
+      "name": "GCP-Compute-7558",
+      "provider": "GCP",
+      "type": "GKE",
+      "region": "ap-southeast-1",
+      "created_at": "2025-04-12T20:25:50.825863",
+      "cost_per_hour": 3.77,
+      "status": "stopped",
+      "tags": {
+        "environment": "dev",
+        "owner": "team-data"
+      }
+    },
+    {
+      "id": "89283a88-afcd-47b7-8d8d-190d1e5b8e91",
+      "name": "AWS-EKS-4449",
+      "provider": "AWS",
+      "type": "EKS",
+      "region": "ap-southeast-1",
+      "created_at": "2025-07-16T20:25:50.825863",
+      "cost_per_hour": 4.58,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "83ab2ed4-3e8e-4b43-ae9b-dd9b5cb99612",
+      "name": "AWS-S3-9161",
+      "provider": "AWS",
+      "type": "Lambda",
+      "region": "eu-west-1",
+      "created_at": "2025-09-27T20:25:50.825863",
+      "cost_per_hour": 0.06,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "ab0ded16-f4a4-4a45-803f-fba92b152e3e",
+      "name": "Azure-VM-4016",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "us-east-1",
+      "created_at": "2026-01-22T20:25:50.825863",
+      "cost_per_hour": 3.67,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "0045afda-c250-430f-9c56-9e8ac97a5f9c",
+      "name": "Azure-Blob-9966",
+      "provider": "Azure",
+      "type": "Functions",
+      "region": "us-east-1",
+      "created_at": "2025-09-27T20:25:50.825863",
+      "cost_per_hour": 2.63,
+      "status": "stopped",
+      "tags": {
+        "environment": "staging",
+        "owner": "team-data"
+      }
+    },
+    {
+      "id": "89069791-b19b-4c14-ac76-7a561e339160",
+      "name": "Azure-SQL-6193",
+      "provider": "Azure",
+      "type": "VM",
+      "region": "ap-southeast-1",
+      "created_at": "2026-03-10T20:25:50.825863",
+      "cost_per_hour": 2.88,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "78c84d5f-535a-477c-ba34-8bdcf8256b64",
+      "name": "AWS-EC2-8166",
+      "provider": "AWS",
+      "type": "Lambda",
+      "region": "eu-west-1",
+      "created_at": "2025-10-23T20:25:50.825863",
+      "cost_per_hour": 1.9,
+      "status": "active",
+      "tags": {}
+    },
+    {
+      "id": "9bfc3a56-932d-4483-9db6-088444ac0172",
+      "name": "Azure-VM-4646",
+      "provider": "Azure",
+      "type": "VM",
+      "region": "us-east-1",
+      "created_at": "2025-09-22T20:25:50.825863",
+      "cost_per_hour": 1.1,
+      "status": "active",
+      "tags": {
+        "environment": "prod",
+        "owner": "team-data"
+      }
+    },
+    {
+      "id": "ca0a51cf-bd38-4287-80c5-2243a9881595",
+      "name": "AWS-Lambda-2595",
+      "provider": "AWS",
+      "type": "S3",
+      "region": "ap-southeast-1",
+      "created_at": "2025-07-21T20:25:50.825863",
+      "cost_per_hour": 4.18,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "9ffa3ca1-a9c0-4497-b670-83fa96ae841c",
+      "name": "AWS-Lambda-1897",
+      "provider": "AWS",
+      "type": "EC2",
+      "region": "us-west-2",
+      "created_at": "2025-08-06T20:25:50.825863",
+      "cost_per_hour": 3.31,
+      "status": "idle",
+      "tags": {
+        "environment": "dev",
+        "owner": "team-data"
+      }
+    },
+    {
+      "id": "7312d12c-cdd1-4c9b-aa62-2064669dead9",
+      "name": "Azure-Functions-4025",
+      "provider": "Azure",
+      "type": "AKS",
+      "region": "ap-southeast-1",
+      "created_at": "2026-03-16T20:25:50.825863",
+      "cost_per_hour": 3.6,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "4e3c5728-0c50-43b8-8b77-21c0f4c1993d",
+      "name": "GCP-Functions-5778",
+      "provider": "GCP",
+      "type": "Compute",
+      "region": "eu-west-1",
+      "created_at": "2025-05-01T20:25:50.825863",
+      "cost_per_hour": 0.27,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "bf6a658d-dd55-454c-bce5-b43b85e82a3a",
+      "name": "GCP-Functions-1574",
+      "provider": "GCP",
+      "type": "Functions",
+      "region": "us-east-1",
+      "created_at": "2025-08-02T20:25:50.825863",
+      "cost_per_hour": 2.57,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "92134c31-844a-4e4e-9a09-6caac1838492",
+      "name": "Azure-VM-6371",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "ap-southeast-1",
+      "created_at": "2025-06-23T20:25:50.825863",
+      "cost_per_hour": 3.76,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "ade94d1d-e397-48b5-9c4d-503a2283fcb1",
+      "name": "Azure-AKS-8458",
+      "provider": "Azure",
+      "type": "AKS",
+      "region": "us-west-2",
+      "created_at": "2025-05-14T20:25:50.825863",
+      "cost_per_hour": 3.89,
+      "status": "idle",
+      "tags": {
+        "owner": "team-app"
+      }
+    },
+    {
+      "id": "e7453811-5ce1-43b2-adb9-93aff419c6f0",
+      "name": "AWS-RDS-3341",
+      "provider": "AWS",
+      "type": "EKS",
+      "region": "us-west-2",
+      "created_at": "2026-01-22T20:25:50.825863",
+      "cost_per_hour": 4.2,
+      "status": "stopped",
+      "tags": {}
+    },
+    {
+      "id": "529a1133-b42b-4345-a3d9-6b21cd3da9bc",
+      "name": "AWS-RDS-3010",
+      "provider": "AWS",
+      "type": "RDS",
+      "region": "us-west-2",
+      "created_at": "2025-12-15T20:25:50.825863",
+      "cost_per_hour": 2.65,
+      "status": "idle",
+      "tags": {
+        "environment": "dev"
+      }
+    },
+    {
+      "id": "454227ae-e677-471e-9518-103bcc322a89",
+      "name": "Azure-AKS-4770",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "us-west-2",
+      "created_at": "2025-12-23T20:25:50.825863",
+      "cost_per_hour": 2.49,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "7926c8cf-ffbd-4343-97aa-6f59613fbcab",
+      "name": "Azure-SQL-1096",
+      "provider": "Azure",
+      "type": "Blob",
+      "region": "eu-west-1",
+      "created_at": "2025-08-11T20:25:50.825863",
+      "cost_per_hour": 2.08,
+      "status": "idle",
+      "tags": {}
+    },
+    {
+      "id": "7fee549d-8790-406a-9cfd-c2d396c8065b",
+      "name": "GCP-Storage-9659",
+      "provider": "GCP",
+      "type": "Functions",
+      "region": "us-west-2",
+      "created_at": "2025-09-29T20:25:50.825863",
+      "cost_per_hour": 4.12,
+      "status": "idle",
+      "tags": {}
+    }
+  ],
+  "misconfigurations": [
+    {
+      "id": "c5b52d37-bc9b-435d-b840-8658042e0eb8",
+      "resource_id": "14719291-edc6-486a-8c2e-cb098451d49c",
+      "resource_name": "GCP-Compute-4504",
+      "type": "Unencrypted data at rest",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-24T04:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "0a22a52d-a0df-45b0-9d1e-647d214e3a31",
+      "resource_id": "fa1863af-2d1b-46ad-9a08-4045317c24a2",
+      "resource_name": "Azure-VM-1310",
+      "type": "Overprivileged IAM roles",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-20T02:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "5e65dd6c-66be-4f83-9fe2-3de7882eb233",
+      "resource_id": "fa1863af-2d1b-46ad-9a08-4045317c24a2",
+      "resource_name": "Azure-VM-1310",
+      "type": "Missing MFA enforcement",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-19T23:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "aceb06aa-4547-4f2f-82bf-1287957535df",
+      "resource_id": "fa1863af-2d1b-46ad-9a08-4045317c24a2",
+      "resource_name": "Azure-VM-1310",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-20T12:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "41e47d03-3ed0-4130-a79a-92e7b819903e",
+      "resource_id": "26daa88c-2063-4ec6-8178-6ddd68e4db35",
+      "resource_name": "Azure-Blob-5705",
+      "type": "Missing audit logging",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-20T14:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "8ab8290f-0305-4020-968c-78bde811fc52",
+      "resource_id": "26daa88c-2063-4ec6-8178-6ddd68e4db35",
+      "resource_name": "Azure-Blob-5705",
+      "type": "Overprivileged IAM roles",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-21T09:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "68514238-a154-4906-92ba-9707455cebe0",
+      "resource_id": "26daa88c-2063-4ec6-8178-6ddd68e4db35",
+      "resource_name": "Azure-Blob-5705",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "Critical",
+      "description": "Immediate security threat detected. Potential for data breach or unauthorized access.",
+      "detected_at": "2026-03-20T17:25:50.825863",
+      "remediation_steps": "Immediate action required: Restrict public access, rotate credentials, and apply security patches.",
+      "estimated_risk_score": 9
+    },
+    {
+      "id": "4e650dc1-697c-4ae1-a5ed-5d0f52741e23",
+      "resource_id": "b9e437c2-d509-40b8-b6c9-460b5b289529",
+      "resource_name": "Azure-AKS-2800",
+      "type": "Unencrypted data at rest",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-18T21:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "dd4d18eb-ff40-4eb2-bb5a-65f05d8ec75a",
+      "resource_id": "9f104306-474f-45ab-bf7d-f4ebd5005845",
+      "resource_name": "AWS-Lambda-8722",
+      "type": "Overprivileged IAM roles",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T07:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "20e27c17-8cc8-4995-b659-ddbf5a7837b9",
+      "resource_id": "898be8c0-2f69-40b1-ba46-be01806fdaeb",
+      "resource_name": "Azure-AKS-9347",
+      "type": "Missing security patches",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-25T02:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "6bdd24b2-db02-4af2-8904-764a5a87ac9d",
+      "resource_id": "898be8c0-2f69-40b1-ba46-be01806fdaeb",
+      "resource_name": "Azure-AKS-9347",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-21T11:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "86421a0e-4148-4232-ae03-d83a74fad85d",
+      "resource_id": "6c984f70-590c-4a65-a4eb-99541477928c",
+      "resource_name": "Azure-SQL-6426",
+      "type": "Unrestricted outbound traffic",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T07:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "fe9930e5-cb47-40bb-93d7-1002ddccb120",
+      "resource_id": "4fc83963-f729-48e5-8097-eddda50f5768",
+      "resource_name": "AWS-EKS-8579",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-21T02:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "97565f14-7d17-42f8-a9d0-9aac6a753a6e",
+      "resource_id": "d22e333f-7ba8-4f4e-8405-fc46c853828c",
+      "resource_name": "AWS-RDS-2388",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T06:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "0f575010-755e-40d4-b3af-9f77f9764709",
+      "resource_id": "d22e333f-7ba8-4f4e-8405-fc46c853828c",
+      "resource_name": "AWS-RDS-2388",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-24T11:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "7a2759c3-4592-49d8-a408-22eb0b6236eb",
+      "resource_id": "d22e333f-7ba8-4f4e-8405-fc46c853828c",
+      "resource_name": "AWS-RDS-2388",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Critical",
+      "description": "Immediate security threat detected. Potential for data breach or unauthorized access.",
+      "detected_at": "2026-03-22T08:25:50.825863",
+      "remediation_steps": "Immediate action required: Restrict public access, rotate credentials, and apply security patches.",
+      "estimated_risk_score": 9
+    },
+    {
+      "id": "19fc2ddb-67d4-4ab6-a85d-b9f497bc0194",
+      "resource_id": "b90f1fdd-4f13-4929-924d-031aff7c23a2",
+      "resource_name": "GCP-Compute-5084",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-23T22:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "01af8ddf-82fa-4f15-bd31-5dd071d22635",
+      "resource_id": "b90f1fdd-4f13-4929-924d-031aff7c23a2",
+      "resource_name": "GCP-Compute-5084",
+      "type": "Missing security patches",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-25T03:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "19fb7105-9e6f-4663-8266-13c7810dd2f4",
+      "resource_id": "b6c6a1e3-3362-454f-8ae8-41cd0febe011",
+      "resource_name": "AWS-RDS-4945",
+      "type": "Outdated software versions",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-24T02:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "6e38e87f-2a7c-4c8f-a9bf-1acdd0bec4ec",
+      "resource_id": "381f4d1c-31f1-41ba-95c4-11588d73ce97",
+      "resource_name": "AWS-S3-9399",
+      "type": "Missing MFA enforcement",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T07:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "32090cc9-f5aa-4851-b396-170913612747",
+      "resource_id": "54bff7d3-776c-4177-8836-6cf5eeaaa181",
+      "resource_name": "GCP-Storage-9224",
+      "type": "Outdated software versions",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-22T05:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "c4d385e3-6f91-45d4-a3c3-5385ff5c708d",
+      "resource_id": "54bff7d3-776c-4177-8836-6cf5eeaaa181",
+      "resource_name": "GCP-Storage-9224",
+      "type": "Unencrypted data at rest",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-19T01:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "b77e3e41-feb9-4b08-9cab-440c5c140a29",
+      "resource_id": "550b44d1-4d45-4ca8-9f9f-7405e1eb27fe",
+      "resource_name": "Azure-AKS-3027",
+      "type": "Outdated software versions",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-19T06:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "3dcc4a64-4703-42cd-adce-87a6a09a47c4",
+      "resource_id": "550b44d1-4d45-4ca8-9f9f-7405e1eb27fe",
+      "resource_name": "Azure-AKS-3027",
+      "type": "Overprivileged IAM roles",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-20T15:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "defca7c1-c200-43d4-9bf9-fc7aef9d2fe1",
+      "resource_id": "550b44d1-4d45-4ca8-9f9f-7405e1eb27fe",
+      "resource_name": "Azure-AKS-3027",
+      "type": "Unused access keys",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-23T19:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "1fdbbb1d-adae-423e-8036-ae7565dfeb2a",
+      "resource_id": "e4cd9205-1e51-4455-80e7-7a9f1d4d365a",
+      "resource_name": "GCP-SQL-7163",
+      "type": "Outdated software versions",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-23T23:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "1f63d768-58d0-4938-93de-5570d2e73012",
+      "resource_id": "e4cd9205-1e51-4455-80e7-7a9f1d4d365a",
+      "resource_name": "GCP-SQL-7163",
+      "type": "Missing MFA enforcement",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T05:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "300dc649-22a8-4d67-9349-1efb00561180",
+      "resource_id": "e4cd9205-1e51-4455-80e7-7a9f1d4d365a",
+      "resource_name": "GCP-SQL-7163",
+      "type": "Missing MFA enforcement",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-20T17:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "c02274e8-041c-4a11-a6f5-f877e48c2a42",
+      "resource_id": "ef5544b6-cc88-493d-b6cc-1161e91a8037",
+      "resource_name": "Azure-AKS-3677",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-25T16:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "7cdb7c86-629f-4e1a-9d75-c68aaf1630a2",
+      "resource_id": "ef5544b6-cc88-493d-b6cc-1161e91a8037",
+      "resource_name": "Azure-AKS-3677",
+      "type": "Unrestricted outbound traffic",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-23T12:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "50aa7a7e-df3e-422a-920d-a2625295e9ed",
+      "resource_id": "278669ea-9d6e-4784-8692-5a386952b2e4",
+      "resource_name": "GCP-Compute-9588",
+      "type": "Overprivileged IAM roles",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-20T22:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "8cdcabc9-3c46-4660-aa2d-3b98fa3d897c",
+      "resource_id": "5605e717-0791-470b-9188-78b908b3ea7a",
+      "resource_name": "GCP-Storage-5013",
+      "type": "Unrestricted outbound traffic",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-18T23:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "bd4b08f6-2482-44f6-9af8-d89b61aa18f0",
+      "resource_id": "4ccbcc67-23c2-4814-9517-b9b1c2f2aaac",
+      "resource_name": "Azure-Functions-8469",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-19T01:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "16d89037-57f2-4278-a587-794d31215042",
+      "resource_id": "4ccbcc67-23c2-4814-9517-b9b1c2f2aaac",
+      "resource_name": "Azure-Functions-8469",
+      "type": "Overprivileged IAM roles",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-25T06:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "ff9df032-ab02-44be-bd83-97ed1ae852b8",
+      "resource_id": "4ccbcc67-23c2-4814-9517-b9b1c2f2aaac",
+      "resource_name": "Azure-Functions-8469",
+      "type": "Outdated software versions",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-20T12:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "06013d29-1498-4b69-a945-3e87ba2601c3",
+      "resource_id": "d8314252-9b36-4b5d-9563-944db5e8b297",
+      "resource_name": "GCP-SQL-2855",
+      "type": "Unencrypted data at rest",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-22T09:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "b1ce5dbc-1d47-4039-ac9f-2df227f83e77",
+      "resource_id": "d8314252-9b36-4b5d-9563-944db5e8b297",
+      "resource_name": "GCP-SQL-2855",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-21T15:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "bed31250-3b75-46ee-a0e0-3db34c01759d",
+      "resource_id": "d8314252-9b36-4b5d-9563-944db5e8b297",
+      "resource_name": "GCP-SQL-2855",
+      "type": "Missing security patches",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-22T17:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "be22a8de-e342-424f-8bfa-3777b2cab06c",
+      "resource_id": "593c10d7-3bc1-4d36-af42-407b9c717732",
+      "resource_name": "AWS-EC2-2869",
+      "type": "Unencrypted data at rest",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-21T16:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "ad09c804-29cb-4141-a5dd-c558c6dfe755",
+      "resource_id": "e693dd61-fc29-430c-9240-71270b7b8868",
+      "resource_name": "AWS-Lambda-4738",
+      "type": "Missing MFA enforcement",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-22T15:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "86fd0d8c-e815-4fc9-9e72-4b9867c9e7d6",
+      "resource_id": "e693dd61-fc29-430c-9240-71270b7b8868",
+      "resource_name": "AWS-Lambda-4738",
+      "type": "Outdated software versions",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-25T17:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "68a4b852-e090-4f73-8d6a-94cdfdcf331e",
+      "resource_id": "e693dd61-fc29-430c-9240-71270b7b8868",
+      "resource_name": "AWS-Lambda-4738",
+      "type": "Outdated software versions",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-22T14:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "baea875d-a41e-47c9-901f-8c27605e0b3f",
+      "resource_id": "29466e69-ea2d-4497-ae47-98a0650dd584",
+      "resource_name": "AWS-S3-2000",
+      "type": "Missing security patches",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T21:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "5538f9cf-7dac-49d8-b853-18d41a81e8ec",
+      "resource_id": "29466e69-ea2d-4497-ae47-98a0650dd584",
+      "resource_name": "AWS-S3-2000",
+      "type": "Unencrypted data at rest",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T06:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "87013cb6-666b-4beb-b11a-c96d63488bdf",
+      "resource_id": "83ab2ed4-3e8e-4b43-ae9b-dd9b5cb99612",
+      "resource_name": "AWS-S3-9161",
+      "type": "Missing MFA enforcement",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T13:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "5320f84b-401e-4790-99a5-f9b652fc1ebc",
+      "resource_id": "ab0ded16-f4a4-4a45-803f-fba92b152e3e",
+      "resource_name": "Azure-VM-4016",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-22T14:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "52d94308-010e-4f3c-b1ae-ef957dacc0e2",
+      "resource_id": "ab0ded16-f4a4-4a45-803f-fba92b152e3e",
+      "resource_name": "Azure-VM-4016",
+      "type": "Unused access keys",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-24T11:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "7778fc39-cdb3-4de7-a837-02aef87e1fc8",
+      "resource_id": "0045afda-c250-430f-9c56-9e8ac97a5f9c",
+      "resource_name": "Azure-Blob-9966",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-21T18:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "e6326914-a7b1-4cf9-9d3e-e66094799a5e",
+      "resource_id": "0045afda-c250-430f-9c56-9e8ac97a5f9c",
+      "resource_name": "Azure-Blob-9966",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-24T11:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "76136ea4-663e-47f4-8c10-039cce4c342b",
+      "resource_id": "89069791-b19b-4c14-ac76-7a561e339160",
+      "resource_name": "Azure-SQL-6193",
+      "type": "Missing audit logging",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-21T15:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "57abda9c-b18e-4490-9d44-f7e5f483801e",
+      "resource_id": "89069791-b19b-4c14-ac76-7a561e339160",
+      "resource_name": "Azure-SQL-6193",
+      "type": "Missing security patches",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-22T01:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "73445f66-f09a-49e0-a848-f46be551c72a",
+      "resource_id": "78c84d5f-535a-477c-ba34-8bdcf8256b64",
+      "resource_name": "AWS-EC2-8166",
+      "type": "Missing MFA enforcement",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-20T02:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "5abea063-4aa7-4739-babb-d4de2bc656d8",
+      "resource_id": "9bfc3a56-932d-4483-9db6-088444ac0172",
+      "resource_name": "Azure-VM-4646",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-23T06:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "3a1fafbb-3213-45b1-8c03-396753db611a",
+      "resource_id": "9bfc3a56-932d-4483-9db6-088444ac0172",
+      "resource_name": "Azure-VM-4646",
+      "type": "Unencrypted data at rest",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T05:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "ef6b703a-d6b3-49f1-9bd6-8dac603f2240",
+      "resource_id": "ca0a51cf-bd38-4287-80c5-2243a9881595",
+      "resource_name": "AWS-Lambda-2595",
+      "type": "Outdated software versions",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-21T00:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "88d15c96-6af7-4f7c-9e3a-4d8de2e5b2b0",
+      "resource_id": "ca0a51cf-bd38-4287-80c5-2243a9881595",
+      "resource_name": "AWS-Lambda-2595",
+      "type": "Outdated software versions",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T10:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "3e4854fd-093d-465c-8d1b-209214bac44b",
+      "resource_id": "ca0a51cf-bd38-4287-80c5-2243a9881595",
+      "resource_name": "AWS-Lambda-2595",
+      "type": "Unused access keys",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-22T14:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "2db91f43-1cba-4ee2-bb05-eb38eee734d4",
+      "resource_id": "9ffa3ca1-a9c0-4497-b670-83fa96ae841c",
+      "resource_name": "AWS-Lambda-1897",
+      "type": "Overprivileged IAM roles",
+      "severity": "Critical",
+      "description": "Immediate security threat detected. Potential for data breach or unauthorized access.",
+      "detected_at": "2026-03-21T21:25:50.825863",
+      "remediation_steps": "Immediate action required: Restrict public access, rotate credentials, and apply security patches.",
+      "estimated_risk_score": 9
+    },
+    {
+      "id": "df89f3ba-551e-4e14-b452-303b9b2a65dc",
+      "resource_id": "7312d12c-cdd1-4c9b-aa62-2064669dead9",
+      "resource_name": "Azure-Functions-4025",
+      "type": "Unencrypted data at rest",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-18T22:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "af9906f0-fb92-48ca-9273-4e03970ccfbe",
+      "resource_id": "4e3c5728-0c50-43b8-8b77-21c0f4c1993d",
+      "resource_name": "GCP-Functions-5778",
+      "type": "Unused access keys",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T16:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "57831db1-854f-467a-a225-94720efc641f",
+      "resource_id": "4e3c5728-0c50-43b8-8b77-21c0f4c1993d",
+      "resource_name": "GCP-Functions-5778",
+      "type": "Publicly accessible storage bucket",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-21T12:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "d7024b29-3627-425e-9c2a-128c0e5cf373",
+      "resource_id": "4e3c5728-0c50-43b8-8b77-21c0f4c1993d",
+      "resource_name": "GCP-Functions-5778",
+      "type": "Missing MFA enforcement",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-23T11:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "8a4d8acc-747c-42c2-89ef-875bb1870092",
+      "resource_id": "bf6a658d-dd55-454c-bce5-b43b85e82a3a",
+      "resource_name": "GCP-Functions-1574",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "Critical",
+      "description": "Immediate security threat detected. Potential for data breach or unauthorized access.",
+      "detected_at": "2026-03-25T00:25:50.825863",
+      "remediation_steps": "Immediate action required: Restrict public access, rotate credentials, and apply security patches.",
+      "estimated_risk_score": 9
+    },
+    {
+      "id": "fbd46c0e-b8e6-400f-8061-d5f221419dd3",
+      "resource_id": "bf6a658d-dd55-454c-bce5-b43b85e82a3a",
+      "resource_name": "GCP-Functions-1574",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-19T03:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "c3ab3ab1-f9b6-4baa-9511-79b33e0a14b6",
+      "resource_id": "92134c31-844a-4e4e-9a09-6caac1838492",
+      "resource_name": "Azure-VM-6371",
+      "type": "Missing security patches",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-25T01:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "50386099-fc64-4414-abab-3129ccb30f1e",
+      "resource_id": "92134c31-844a-4e4e-9a09-6caac1838492",
+      "resource_name": "Azure-VM-6371",
+      "type": "Unused access keys",
+      "severity": "Critical",
+      "description": "Immediate security threat detected. Potential for data breach or unauthorized access.",
+      "detected_at": "2026-03-19T06:25:50.825863",
+      "remediation_steps": "Immediate action required: Restrict public access, rotate credentials, and apply security patches.",
+      "estimated_risk_score": 9
+    },
+    {
+      "id": "db008bf7-81a1-429d-8b32-471a6ebbf932",
+      "resource_id": "ade94d1d-e397-48b5-9c4d-503a2283fcb1",
+      "resource_name": "Azure-AKS-8458",
+      "type": "Outdated software versions",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-24T15:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "7a2fdeba-84b0-4104-9cb9-425b4a30d700",
+      "resource_id": "ade94d1d-e397-48b5-9c4d-503a2283fcb1",
+      "resource_name": "Azure-AKS-8458",
+      "type": "Unrestricted outbound traffic",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-20T20:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "a5522673-9d7c-4836-875e-ce438fe57397",
+      "resource_id": "e7453811-5ce1-43b2-adb9-93aff419c6f0",
+      "resource_name": "AWS-RDS-3341",
+      "type": "Unencrypted data at rest",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-24T19:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "001ac869-2f50-4079-9299-5c778c75b638",
+      "resource_id": "e7453811-5ce1-43b2-adb9-93aff419c6f0",
+      "resource_name": "AWS-RDS-3341",
+      "type": "Outdated software versions",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T04:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "53bbc663-aad7-45c4-92de-250842303ec0",
+      "resource_id": "e7453811-5ce1-43b2-adb9-93aff419c6f0",
+      "resource_name": "AWS-RDS-3341",
+      "type": "Unencrypted data at rest",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-22T01:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "320cc4f1-5e1d-4e56-baab-7c2795b1c9a1",
+      "resource_id": "529a1133-b42b-4345-a3d9-6b21cd3da9bc",
+      "resource_name": "AWS-RDS-3010",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-23T05:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "e0ce68aa-ecce-4afa-a4ff-a4fe9cd797f2",
+      "resource_id": "529a1133-b42b-4345-a3d9-6b21cd3da9bc",
+      "resource_name": "AWS-RDS-3010",
+      "type": "Missing audit logging",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-24T08:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "e77c0135-3010-4f65-9a9b-fc753979c530",
+      "resource_id": "454227ae-e677-471e-9518-103bcc322a89",
+      "resource_name": "Azure-AKS-4770",
+      "type": "Open security group rules (0.0.0.0/0)",
+      "severity": "High",
+      "description": "Significant security risk. Could lead to serious security incidents if exploited.",
+      "detected_at": "2026-03-25T07:25:50.825863",
+      "remediation_steps": "High priority: Update security group rules, enable encryption, and review IAM policies.",
+      "estimated_risk_score": 7
+    },
+    {
+      "id": "8198ed7d-cb24-4432-b9ba-81229ae5ce65",
+      "resource_id": "7926c8cf-ffbd-4343-97aa-6f59613fbcab",
+      "resource_name": "Azure-SQL-1096",
+      "type": "Outdated software versions",
+      "severity": "Medium",
+      "description": "Moderate security concern. Should be addressed in regular maintenance cycles.",
+      "detected_at": "2026-03-24T20:25:50.825863",
+      "remediation_steps": "Medium priority: Implement logging, remove unused resources, and update configurations.",
+      "estimated_risk_score": 4
+    },
+    {
+      "id": "9b1cefcf-e0a9-4dc8-b710-53bdb8ecb9a9",
+      "resource_id": "7926c8cf-ffbd-4343-97aa-6f59613fbcab",
+      "resource_name": "Azure-SQL-1096",
+      "type": "Outdated software versions",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-21T21:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "79d67673-b24c-4ddb-8b31-0b6534e07e5a",
+      "resource_id": "7fee549d-8790-406a-9cfd-c2d396c8065b",
+      "resource_name": "GCP-Storage-9659",
+      "type": "Unrestricted outbound traffic",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-19T06:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "9c631d4c-1e2d-46a2-a91e-7108406e1b6e",
+      "resource_id": "7fee549d-8790-406a-9cfd-c2d396c8065b",
+      "resource_name": "GCP-Storage-9659",
+      "type": "Missing MFA enforcement",
+      "severity": "Low",
+      "description": "Minor security best practice violation. Recommended to fix for compliance.",
+      "detected_at": "2026-03-20T10:25:50.825863",
+      "remediation_steps": "Low priority: Follow best practices, document changes, and plan for next sprint.",
+      "estimated_risk_score": 2
+    },
+    {
+      "id": "099df582-8fbe-4d40-9e18-7b094c76fa87",
+      "resource_id": "7fee549d-8790-406a-9cfd-c2d396c8065b",
+      "resource_name": "GCP-Storage-9659",
+      "type": "Unencrypted data at rest",
+      "severity": "Critical",
+      "description": "Immediate security threat detected. Potential for data breach or unauthorized access.",
+      "detected_at": "2026-03-19T15:25:50.825863",
+      "remediation_steps": "Immediate action required: Restrict public access, rotate credentials, and apply security patches.",
+      "estimated_risk_score": 9
+    }
+  ],
+  "cost_data": [
+    {
+      "resource_id": "14719291-edc6-486a-8c2e-cb098451d49c",
+      "resource_name": "GCP-Compute-4504",
+      "hourly_cost": 0.64,
+      "daily_cost": 15.36,
+      "monthly_cost": 460.8,
+      "optimization_potential": 118.14,
+      "optimization_recommendation": "Consider rightsizing or moving to reserved instances"
+    },
+    {
+      "resource_id": "fa1863af-2d1b-46ad-9a08-4045317c24a2",
+      "resource_name": "Azure-VM-1310",
+      "hourly_cost": 2.87,
+      "daily_cost": 68.88,
+      "monthly_cost": 2066.4,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "26daa88c-2063-4ec6-8178-6ddd68e4db35",
+      "resource_name": "Azure-Blob-5705",
+      "hourly_cost": 3.53,
+      "daily_cost": 84.72,
+      "monthly_cost": 2541.6,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "b9e437c2-d509-40b8-b6c9-460b5b289529",
+      "resource_name": "Azure-AKS-2800",
+      "hourly_cost": 0.67,
+      "daily_cost": 16.08,
+      "monthly_cost": 482.4,
+      "optimization_potential": 385.92,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "9f104306-474f-45ab-bf7d-f4ebd5005845",
+      "resource_name": "AWS-Lambda-8722",
+      "hourly_cost": 0.56,
+      "daily_cost": 13.44,
+      "monthly_cost": 403.2,
+      "optimization_potential": 383.04,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "898be8c0-2f69-40b1-ba46-be01806fdaeb",
+      "resource_name": "Azure-AKS-9347",
+      "hourly_cost": 4.45,
+      "daily_cost": 106.8,
+      "monthly_cost": 3204.0,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "6c984f70-590c-4a65-a4eb-99541477928c",
+      "resource_name": "Azure-SQL-6426",
+      "hourly_cost": 2.26,
+      "daily_cost": 54.24,
+      "monthly_cost": 1627.2,
+      "optimization_potential": 1301.76,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "503fff79-c5d2-45ea-99c6-70b76ddb9de3",
+      "resource_name": "GCP-Functions-1188",
+      "hourly_cost": 1.77,
+      "daily_cost": 42.48,
+      "monthly_cost": 1274.4,
+      "optimization_potential": 1210.68,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "4fc83963-f729-48e5-8097-eddda50f5768",
+      "resource_name": "AWS-EKS-8579",
+      "hourly_cost": 3.47,
+      "daily_cost": 83.28,
+      "monthly_cost": 2498.4,
+      "optimization_potential": 2373.48,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "d22e333f-7ba8-4f4e-8405-fc46c853828c",
+      "resource_name": "AWS-RDS-2388",
+      "hourly_cost": 1.87,
+      "daily_cost": 44.88,
+      "monthly_cost": 1346.4,
+      "optimization_potential": 1077.12,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "b90f1fdd-4f13-4929-924d-031aff7c23a2",
+      "resource_name": "GCP-Compute-5084",
+      "hourly_cost": 3.75,
+      "daily_cost": 90.0,
+      "monthly_cost": 2700.0,
+      "optimization_potential": 698.08,
+      "optimization_recommendation": "Consider rightsizing or moving to reserved instances"
+    },
+    {
+      "resource_id": "b6c6a1e3-3362-454f-8ae8-41cd0febe011",
+      "resource_name": "AWS-RDS-4945",
+      "hourly_cost": 3.73,
+      "daily_cost": 89.52,
+      "monthly_cost": 2685.6,
+      "optimization_potential": 2551.32,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "381f4d1c-31f1-41ba-95c4-11588d73ce97",
+      "resource_name": "AWS-S3-9399",
+      "hourly_cost": 3.82,
+      "daily_cost": 91.68,
+      "monthly_cost": 2750.4,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "3b994f9d-58b1-44cc-b790-95756ef1144e",
+      "resource_name": "AWS-Lambda-7539",
+      "hourly_cost": 3.2,
+      "daily_cost": 76.8,
+      "monthly_cost": 2304.0,
+      "optimization_potential": 1843.2,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "54bff7d3-776c-4177-8836-6cf5eeaaa181",
+      "resource_name": "GCP-Storage-9224",
+      "hourly_cost": 4.07,
+      "daily_cost": 97.68,
+      "monthly_cost": 2930.4,
+      "optimization_potential": 2344.32,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "52ce00ca-5891-4370-8e76-46dba3414cf5",
+      "resource_name": "AWS-EKS-2556",
+      "hourly_cost": 4.96,
+      "daily_cost": 119.04,
+      "monthly_cost": 3571.2,
+      "optimization_potential": 2856.96,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "33b26d47-2b81-48d3-b84f-f9b86e034da4",
+      "resource_name": "AWS-EC2-8163",
+      "hourly_cost": 4.16,
+      "daily_cost": 99.84,
+      "monthly_cost": 2995.2,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "550b44d1-4d45-4ca8-9f9f-7405e1eb27fe",
+      "resource_name": "Azure-AKS-3027",
+      "hourly_cost": 2.32,
+      "daily_cost": 55.68,
+      "monthly_cost": 1670.4,
+      "optimization_potential": 1586.88,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "e4cd9205-1e51-4455-80e7-7a9f1d4d365a",
+      "resource_name": "GCP-SQL-7163",
+      "hourly_cost": 1.14,
+      "daily_cost": 27.36,
+      "monthly_cost": 820.8,
+      "optimization_potential": 656.64,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "ef5544b6-cc88-493d-b6cc-1161e91a8037",
+      "resource_name": "Azure-AKS-3677",
+      "hourly_cost": 4.76,
+      "daily_cost": 114.24,
+      "monthly_cost": 3427.2,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "278669ea-9d6e-4784-8692-5a386952b2e4",
+      "resource_name": "GCP-Compute-9588",
+      "hourly_cost": 1.56,
+      "daily_cost": 37.44,
+      "monthly_cost": 1123.2,
+      "optimization_potential": 898.56,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "5605e717-0791-470b-9188-78b908b3ea7a",
+      "resource_name": "GCP-Storage-5013",
+      "hourly_cost": 3.6,
+      "daily_cost": 86.4,
+      "monthly_cost": 2592.0,
+      "optimization_potential": 2073.6,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "4ccbcc67-23c2-4814-9517-b9b1c2f2aaac",
+      "resource_name": "Azure-Functions-8469",
+      "hourly_cost": 0.01,
+      "daily_cost": 0.24,
+      "monthly_cost": 7.2,
+      "optimization_potential": 6.84,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "9af7d34e-3f85-4c66-8501-ebf9897071f9",
+      "resource_name": "GCP-Functions-2293",
+      "hourly_cost": 1.42,
+      "daily_cost": 34.08,
+      "monthly_cost": 1022.4,
+      "optimization_potential": 971.28,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "d8314252-9b36-4b5d-9563-944db5e8b297",
+      "resource_name": "GCP-SQL-2855",
+      "hourly_cost": 3.56,
+      "daily_cost": 85.44,
+      "monthly_cost": 2563.2,
+      "optimization_potential": 2435.04,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "593c10d7-3bc1-4d36-af42-407b9c717732",
+      "resource_name": "AWS-EC2-2869",
+      "hourly_cost": 2.78,
+      "daily_cost": 66.72,
+      "monthly_cost": 2001.6,
+      "optimization_potential": 1901.52,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "e693dd61-fc29-430c-9240-71270b7b8868",
+      "resource_name": "AWS-Lambda-4738",
+      "hourly_cost": 0.32,
+      "daily_cost": 7.68,
+      "monthly_cost": 230.4,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "29466e69-ea2d-4497-ae47-98a0650dd584",
+      "resource_name": "AWS-S3-2000",
+      "hourly_cost": 3.67,
+      "daily_cost": 88.08,
+      "monthly_cost": 2642.4,
+      "optimization_potential": 708.35,
+      "optimization_recommendation": "Consider rightsizing or moving to reserved instances"
+    },
+    {
+      "resource_id": "94980f26-f16b-49d0-b144-fe251463c8d4",
+      "resource_name": "AWS-RDS-5564",
+      "hourly_cost": 2.3,
+      "daily_cost": 55.2,
+      "monthly_cost": 1656.0,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "c2b0978d-4a0a-49c7-9823-c26bb7b8fe6e",
+      "resource_name": "AWS-EC2-8069",
+      "hourly_cost": 3.67,
+      "daily_cost": 88.08,
+      "monthly_cost": 2642.4,
+      "optimization_potential": 2113.92,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "0bbdc581-d8f3-4009-b425-24321511a3ad",
+      "resource_name": "GCP-Compute-7558",
+      "hourly_cost": 3.77,
+      "daily_cost": 90.48,
+      "monthly_cost": 2714.4,
+      "optimization_potential": 2578.68,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "89283a88-afcd-47b7-8d8d-190d1e5b8e91",
+      "resource_name": "AWS-EKS-4449",
+      "hourly_cost": 4.58,
+      "daily_cost": 109.92,
+      "monthly_cost": 3297.6,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "83ab2ed4-3e8e-4b43-ae9b-dd9b5cb99612",
+      "resource_name": "AWS-S3-9161",
+      "hourly_cost": 0.06,
+      "daily_cost": 1.44,
+      "monthly_cost": 43.2,
+      "optimization_potential": 41.04,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "ab0ded16-f4a4-4a45-803f-fba92b152e3e",
+      "resource_name": "Azure-VM-4016",
+      "hourly_cost": 3.67,
+      "daily_cost": 88.08,
+      "monthly_cost": 2642.4,
+      "optimization_potential": 2510.28,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "0045afda-c250-430f-9c56-9e8ac97a5f9c",
+      "resource_name": "Azure-Blob-9966",
+      "hourly_cost": 2.63,
+      "daily_cost": 63.12,
+      "monthly_cost": 1893.6,
+      "optimization_potential": 1798.92,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "89069791-b19b-4c14-ac76-7a561e339160",
+      "resource_name": "Azure-SQL-6193",
+      "hourly_cost": 2.88,
+      "daily_cost": 69.12,
+      "monthly_cost": 2073.6,
+      "optimization_potential": 1658.88,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "78c84d5f-535a-477c-ba34-8bdcf8256b64",
+      "resource_name": "AWS-EC2-8166",
+      "hourly_cost": 1.9,
+      "daily_cost": 45.6,
+      "monthly_cost": 1368.0,
+      "optimization_potential": 0,
+      "optimization_recommendation": "Currently optimized"
+    },
+    {
+      "resource_id": "9bfc3a56-932d-4483-9db6-088444ac0172",
+      "resource_name": "Azure-VM-4646",
+      "hourly_cost": 1.1,
+      "daily_cost": 26.4,
+      "monthly_cost": 792.0,
+      "optimization_potential": 319.77,
+      "optimization_recommendation": "Consider rightsizing or moving to reserved instances"
+    },
+    {
+      "resource_id": "ca0a51cf-bd38-4287-80c5-2243a9881595",
+      "resource_name": "AWS-Lambda-2595",
+      "hourly_cost": 4.18,
+      "daily_cost": 100.32,
+      "monthly_cost": 3009.6,
+      "optimization_potential": 2407.68,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "9ffa3ca1-a9c0-4497-b670-83fa96ae841c",
+      "resource_name": "AWS-Lambda-1897",
+      "hourly_cost": 3.31,
+      "daily_cost": 79.44,
+      "monthly_cost": 2383.2,
+      "optimization_potential": 1906.56,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "7312d12c-cdd1-4c9b-aa62-2064669dead9",
+      "resource_name": "Azure-Functions-4025",
+      "hourly_cost": 3.6,
+      "daily_cost": 86.4,
+      "monthly_cost": 2592.0,
+      "optimization_potential": 2462.4,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "4e3c5728-0c50-43b8-8b77-21c0f4c1993d",
+      "resource_name": "GCP-Functions-5778",
+      "hourly_cost": 0.27,
+      "daily_cost": 6.48,
+      "monthly_cost": 194.4,
+      "optimization_potential": 155.52,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "bf6a658d-dd55-454c-bce5-b43b85e82a3a",
+      "resource_name": "GCP-Functions-1574",
+      "hourly_cost": 2.57,
+      "daily_cost": 61.68,
+      "monthly_cost": 1850.4,
+      "optimization_potential": 1480.32,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "92134c31-844a-4e4e-9a09-6caac1838492",
+      "resource_name": "Azure-VM-6371",
+      "hourly_cost": 3.76,
+      "daily_cost": 90.24,
+      "monthly_cost": 2707.2,
+      "optimization_potential": 2571.84,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "ade94d1d-e397-48b5-9c4d-503a2283fcb1",
+      "resource_name": "Azure-AKS-8458",
+      "hourly_cost": 3.89,
+      "daily_cost": 93.36,
+      "monthly_cost": 2800.8,
+      "optimization_potential": 2240.64,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "e7453811-5ce1-43b2-adb9-93aff419c6f0",
+      "resource_name": "AWS-RDS-3341",
+      "hourly_cost": 4.2,
+      "daily_cost": 100.8,
+      "monthly_cost": 3024.0,
+      "optimization_potential": 2872.8,
+      "optimization_recommendation": "Resource is stopped - consider deletion if not needed"
+    },
+    {
+      "resource_id": "529a1133-b42b-4345-a3d9-6b21cd3da9bc",
+      "resource_name": "AWS-RDS-3010",
+      "hourly_cost": 2.65,
+      "daily_cost": 63.6,
+      "monthly_cost": 1908.0,
+      "optimization_potential": 1526.4,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "454227ae-e677-471e-9518-103bcc322a89",
+      "resource_name": "Azure-AKS-4770",
+      "hourly_cost": 2.49,
+      "daily_cost": 59.76,
+      "monthly_cost": 1792.8,
+      "optimization_potential": 1434.24,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "7926c8cf-ffbd-4343-97aa-6f59613fbcab",
+      "resource_name": "Azure-SQL-1096",
+      "hourly_cost": 2.08,
+      "daily_cost": 49.92,
+      "monthly_cost": 1497.6,
+      "optimization_potential": 1198.08,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    },
+    {
+      "resource_id": "7fee549d-8790-406a-9cfd-c2d396c8065b",
+      "resource_name": "GCP-Storage-9659",
+      "hourly_cost": 4.12,
+      "daily_cost": 98.88,
+      "monthly_cost": 2966.4,
+      "optimization_potential": 2373.12,
+      "optimization_recommendation": "Resource is idle - consider stopping or downsizing"
+    }
+  ],
+  "generated_at": "2026-03-25T20:25:50.825863",
+  "summary": {
+    "total_resources": 50,
+    "total_misconfigurations": 79,
+    "critical_misconfigurations": 6,
+    "high_misconfigurations": 13,
+    "total_monthly_cost": 99792.0,
+    "total_optimization_potential": 62033.82
+  }
+}
